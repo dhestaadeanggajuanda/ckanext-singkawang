@@ -1,0 +1,14 @@
+# singkawang-js:
+#   filter: rjsmin
+#   output: ckanext-singkawang/%(version)s-singkawang.js
+#   contents:
+#     - js/singkawang.js
+#   extra:
+#     preload:
+#       - base/main
+
+# singkawang-css:
+#   filter: cssrewrite
+#   output: ckanext-singkawang/%(version)s-singkawang.css
+#   contents:
+#     - css/singkawang.css
