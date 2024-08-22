@@ -7,8 +7,8 @@
 #     preload:
 #       - base/main
 
-# singkawang-css:
-#   filter: cssrewrite
-#   output: ckanext-singkawang/%(version)s-singkawang.css
-#   contents:
-#     - css/singkawang.css
+singkawang-css:
+  filter: cssrewrite
+  output: ckanext-singkawang/%(version)s-singkawang.css
+  contents:
+    - css/singkawang.css

@@ -2,5 +2,7 @@
 
 {% block styles %}
         {{ super() }}
-        <link rel="stylesheet" href="/base/css/singkawang.css" />
+        {% asset 'singkawang/singkawang-css' %}
+        <link href='//fonts.googleapis.com/css?family=Lato:400italic,400,900' rel='stylesheet' type='text/css'>
+        <!-- <link href="/base/css/singkawang.css" rel="stylesheet" /> -->
 {% endblock %}

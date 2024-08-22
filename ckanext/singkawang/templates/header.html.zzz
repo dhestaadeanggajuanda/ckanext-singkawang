@@ -1,8 +1,0 @@
-{% extends "header_base.html" %}
-
-{% block header_account_logged %}
-    {{ super() }}
-{% endblock %}
-
-{% block header_account_notlogged %}
-{% endblock %}
